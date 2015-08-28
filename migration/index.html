@@ -49,7 +49,11 @@
 
 <script src="http://ready.langjs.com/parse.js"></script>
 <script src="http://ready.langjs.com/lang.js"></script>
-<script src="http://ready.langjs.com/cookie.js"></script>
+<script>
+  window.Lang.initialize({
+    appId: 'vF45HUMV92'
+  });
+</script>
 
 
 
@@ -88,6 +92,7 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <li><span id="langjs-widget-button"></span></li>
         <li><a href="http://expo.getbootstrap.com" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');">Expo</a></li>
         <li><a href="http://blog.getbootstrap.com" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');">Blog</a></li>
       </ul>
